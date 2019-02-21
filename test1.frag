@@ -12,7 +12,7 @@ uniform vec2 u_resolution;
 #define STEP_8 STEP; STEP; STEP; STEP; STEP; STEP; STEP; STEP
 #define STEP_256 STEP_8; STEP_8; STEP_8; STEP_8; STEP_8; STEP_8; STEP_8; STEP_8
 
-void main() {
+void main() { 
 
 	vec2 uv = (2. * gl_FragCoord.xy - u_resolution) / u_resolution.y;
 	vec3 col = vec3(0.0314, 0.0902, 0.2863);
